@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037F4940CD073E2C70EC0557 /* ArcadeOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D0631DD4FE9509F020207B /* ArcadeOSApp.swift */; };
+		0F610CDD87DC5329EE410A75 /* AccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C39B6148055879B9BFFAE5 /* AccessManager.swift */; };
+		11FCCA65FD72BBCB06822AB1 /* GameCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448CCF3F7303614D26D381A /* GameCatalog.swift */; };
+		21C0D137B7311DFEBAD2713C /* RewardedAdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84D4F080843958C26D8009 /* RewardedAdManager.swift */; };
+		21D195075933FC7DCC2FAF8E /* BreakoutGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9931429BE57F8463674E7B55 /* BreakoutGameView.swift */; };
+		31FA1929AE7BE65E310275D8 /* PaywallModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC191DEE97FB5B2337F7D135 /* PaywallModal.swift */; };
+		34ACCEC085CF2DCD5C7F047A /* PlaceholderGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F062E5B0B377E5781B5EEC /* PlaceholderGameView.swift */; };
+		34FE6B7E67792AC113F456CF /* MegaGamesCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE92E499DB153F1C8B96C210 /* MegaGamesCollection.swift */; };
+		413C32D18DBF5049FC8CC71D /* DesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0AD6C2CBDA81A26B46E795 /* DesktopView.swift */; };
+		5D97AE4944F4DEB60475AABE /* PongGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7BE7A11267B9C734554C62 /* PongGameView.swift */; };
+		618052702C98F622C952EE86 /* TetrisGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C03D54093BD623A7C6D229 /* TetrisGameView.swift */; };
+		65E378756AB83E15C69062E0 /* RemainingGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE98BBDB07A5F27066351C /* RemainingGames.swift */; };
+		6870910DF4A76F0CD234FC1E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3A108349DA71D12F23804 /* AudioManager.swift */; };
+		691D53A6F240CF32DE828C71 /* WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26359CF290AF9BC347B51E01 /* WindowManager.swift */; };
+		79F784BD0259B2D7A40BAE35 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BF457BA9A8B6A589D4A38 /* Theme.swift */; };
+		814C3122B3E50DB9C3F3E79D /* FlappyBirdGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2BD087137715AD9EBD672 /* FlappyBirdGameView.swift */; };
+		AFA05483692AF4A2F4CD1402 /* CasualGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CD0696AB5FB396BFE6747 /* CasualGames.swift */; };
+		C1AD9128FACE6F99F7A321B0 /* BootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAAC0F39739CC6011042D17 /* BootView.swift */; };
+		C69685152505992A8FC0005A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA61667B3DED315BF559436 /* SettingsView.swift */; };
+		D331D86542F23BCB14E1BFA8 /* SnakeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8875A1022B538CF7FCA9ED8 /* SnakeGameView.swift */; };
+		D5D42BB6CF83DF65D800E5BE /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 836F9DBBD5CAD7A7CF389152 /* Products.storekit */; };
+		E31443E554B5F4477162AEC5 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A678DA937E02B8F91C8CB /* StoreKitManager.swift */; };
+		F05F260EC8B147285629628A /* SimpleGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C5916294DA489367BD3945 /* SimpleGames.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		185CD0696AB5FB396BFE6747 /* CasualGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasualGames.swift; sourceTree = "<group>"; };
+		22C3A108349DA71D12F23804 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		26359CF290AF9BC347B51E01 /* WindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowManager.swift; sourceTree = "<group>"; };
+		32D0631DD4FE9509F020207B /* ArcadeOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeOSApp.swift; sourceTree = "<group>"; };
+		38C5916294DA489367BD3945 /* SimpleGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGames.swift; sourceTree = "<group>"; };
+		3ADE98BBDB07A5F27066351C /* RemainingGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainingGames.swift; sourceTree = "<group>"; };
+		5F7BE7A11267B9C734554C62 /* PongGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongGameView.swift; sourceTree = "<group>"; };
+		63F062E5B0B377E5781B5EEC /* PlaceholderGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderGameView.swift; sourceTree = "<group>"; };
+		7C5BF457BA9A8B6A589D4A38 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		81C03D54093BD623A7C6D229 /* TetrisGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisGameView.swift; sourceTree = "<group>"; };
+		836F9DBBD5CAD7A7CF389152 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
+		9931429BE57F8463674E7B55 /* BreakoutGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakoutGameView.swift; sourceTree = "<group>"; };
+		9BA61667B3DED315BF559436 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A1A2BD087137715AD9EBD672 /* FlappyBirdGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBirdGameView.swift; sourceTree = "<group>"; };
+		AC191DEE97FB5B2337F7D135 /* PaywallModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallModal.swift; sourceTree = "<group>"; };
+		B8C39B6148055879B9BFFAE5 /* AccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessManager.swift; sourceTree = "<group>"; };
+		C8875A1022B538CF7FCA9ED8 /* SnakeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeGameView.swift; sourceTree = "<group>"; };
+		CE4A678DA937E02B8F91C8CB /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		DA0AD6C2CBDA81A26B46E795 /* DesktopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopView.swift; sourceTree = "<group>"; };
+		DAAAC0F39739CC6011042D17 /* BootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootView.swift; sourceTree = "<group>"; };
+		DC84D4F080843958C26D8009 /* RewardedAdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedAdManager.swift; sourceTree = "<group>"; };
+		DE92E499DB153F1C8B96C210 /* MegaGamesCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaGamesCollection.swift; sourceTree = "<group>"; };
+		F15AAFBA0AA708678CCED911 /* ArcadeOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcadeOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F448CCF3F7303614D26D381A /* GameCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00FFC217AAEF35F136DB1FCB /* Breakout */ = {
+			isa = PBXGroup;
+			children = (
+				9931429BE57F8463674E7B55 /* BreakoutGameView.swift */,
+			);
+			path = Breakout;
+			sourceTree = "<group>";
+		};
+		048182A0DC47F66F8F9E9501 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				763669E556F8654F13E601E2 /* StoreKit */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0E52A02766E4ED1C1F7474E1 /* SimpleGames */ = {
+			isa = PBXGroup;
+			children = (
+				38C5916294DA489367BD3945 /* SimpleGames.swift */,
+			);
+			path = SimpleGames;
+			sourceTree = "<group>";
+		};
+		15EBC864CCD7AB2895A6892B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				32D0631DD4FE9509F020207B /* ArcadeOSApp.swift */,
+				DAAAC0F39739CC6011042D17 /* BootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		24898F848A46172675E3CDF7 /* Monetization */ = {
+			isa = PBXGroup;
+			children = (
+				B8C39B6148055879B9BFFAE5 /* AccessManager.swift */,
+				AC191DEE97FB5B2337F7D135 /* PaywallModal.swift */,
+				DC84D4F080843958C26D8009 /* RewardedAdManager.swift */,
+				CE4A678DA937E02B8F91C8CB /* StoreKitManager.swift */,
+			);
+			path = Monetization;
+			sourceTree = "<group>";
+		};
+		64D1E0F5821B0DE271004145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F15AAFBA0AA708678CCED911 /* ArcadeOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		763669E556F8654F13E601E2 /* StoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				836F9DBBD5CAD7A7CF389152 /* Products.storekit */,
+			);
+			path = StoreKit;
+			sourceTree = "<group>";
+		};
+		771DA02C791F957BA34F772B /* Tetris */ = {
+			isa = PBXGroup;
+			children = (
+				81C03D54093BD623A7C6D229 /* TetrisGameView.swift */,
+			);
+			path = Tetris;
+			sourceTree = "<group>";
+		};
+		82B94FDD4922C63EAE557465 /* Arcade */ = {
+			isa = PBXGroup;
+			children = (
+				A1A2BD087137715AD9EBD672 /* FlappyBirdGameView.swift */,
+			);
+			path = Arcade;
+			sourceTree = "<group>";
+		};
+		9676C9DCCA34F412A9C35EFE /* Pong */ = {
+			isa = PBXGroup;
+			children = (
+				5F7BE7A11267B9C734554C62 /* PongGameView.swift */,
+			);
+			path = Pong;
+			sourceTree = "<group>";
+		};
+		AD59E2A83D458850F63FD02A /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				DF1E8B443BC1E02C5C90A7DE /* AllGames */,
+				82B94FDD4922C63EAE557465 /* Arcade */,
+				00FFC217AAEF35F136DB1FCB /* Breakout */,
+				D8A475C27E9FC975C6B9F049 /* CasualGames */,
+				9676C9DCCA34F412A9C35EFE /* Pong */,
+				0E52A02766E4ED1C1F7474E1 /* SimpleGames */,
+				AD9D13E8C600BE080B14A1E1 /* Snake */,
+				F0AD2FC25CC51D831FFE47A8 /* Templates */,
+				771DA02C791F957BA34F772B /* Tetris */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		AD9D13E8C600BE080B14A1E1 /* Snake */ = {
+			isa = PBXGroup;
+			children = (
+				C8875A1022B538CF7FCA9ED8 /* SnakeGameView.swift */,
+			);
+			path = Snake;
+			sourceTree = "<group>";
+		};
+		B011FEF62618CA09B881E272 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				22C3A108349DA71D12F23804 /* AudioManager.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		B3C2BD2CB2FAE2A8A17B9642 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9BA61667B3DED315BF559436 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D8A475C27E9FC975C6B9F049 /* CasualGames */ = {
+			isa = PBXGroup;
+			children = (
+				185CD0696AB5FB396BFE6747 /* CasualGames.swift */,
+			);
+			path = CasualGames;
+			sourceTree = "<group>";
+		};
+		D9FF54991CF9327419EB91DD = {
+			isa = PBXGroup;
+			children = (
+				E3F66E28142874FBB38A106A /* ArcadeOS */,
+				64D1E0F5821B0DE271004145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF1E8B443BC1E02C5C90A7DE /* AllGames */ = {
+			isa = PBXGroup;
+			children = (
+				DE92E499DB153F1C8B96C210 /* MegaGamesCollection.swift */,
+				3ADE98BBDB07A5F27066351C /* RemainingGames.swift */,
+			);
+			path = AllGames;
+			sourceTree = "<group>";
+		};
+		E3F66E28142874FBB38A106A /* ArcadeOS */ = {
+			isa = PBXGroup;
+			children = (
+				15EBC864CCD7AB2895A6892B /* App */,
+				B011FEF62618CA09B881E272 /* Audio */,
+				FE0AF723FDCDEDB03170A8A4 /* Desktop */,
+				AD59E2A83D458850F63FD02A /* Games */,
+				24898F848A46172675E3CDF7 /* Monetization */,
+				048182A0DC47F66F8F9E9501 /* Resources */,
+				E95730173C3E003944E46CE2 /* RetroUI */,
+				B3C2BD2CB2FAE2A8A17B9642 /* Settings */,
+			);
+			path = ArcadeOS;
+			sourceTree = "<group>";
+		};
+		E95730173C3E003944E46CE2 /* RetroUI */ = {
+			isa = PBXGroup;
+			children = (
+				7C5BF457BA9A8B6A589D4A38 /* Theme.swift */,
+			);
+			path = RetroUI;
+			sourceTree = "<group>";
+		};
+		F0AD2FC25CC51D831FFE47A8 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				63F062E5B0B377E5781B5EEC /* PlaceholderGameView.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		FE0AF723FDCDEDB03170A8A4 /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				DA0AD6C2CBDA81A26B46E795 /* DesktopView.swift */,
+				F448CCF3F7303614D26D381A /* GameCatalog.swift */,
+				26359CF290AF9BC347B51E01 /* WindowManager.swift */,
+			);
+			path = Desktop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD07917895BA7B0FE708D500 /* ArcadeOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA5D0C9223CD0A23843843F /* Build configuration list for PBXNativeTarget "ArcadeOS" */;
+			buildPhases = (
+				0EF7F4E41B59B02A7561C62B /* Sources */,
+				EA166B3F4995318DA13855EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcadeOS;
+			packageProductDependencies = (
+			);
+			productName = ArcadeOS;
+			productReference = F15AAFBA0AA708678CCED911 /* ArcadeOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C235368E8B75D5D07FE9006F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 0B8D7284FD0A7D4DE0655593 /* Build configuration list for PBXProject "ArcadeOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D9FF54991CF9327419EB91DD;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD07917895BA7B0FE708D500 /* ArcadeOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA166B3F4995318DA13855EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D42BB6CF83DF65D800E5BE /* Products.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EF7F4E41B59B02A7561C62B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F610CDD87DC5329EE410A75 /* AccessManager.swift in Sources */,
+				037F4940CD073E2C70EC0557 /* ArcadeOSApp.swift in Sources */,
+				6870910DF4A76F0CD234FC1E /* AudioManager.swift in Sources */,
+				C1AD9128FACE6F99F7A321B0 /* BootView.swift in Sources */,
+				21D195075933FC7DCC2FAF8E /* BreakoutGameView.swift in Sources */,
+				AFA05483692AF4A2F4CD1402 /* CasualGames.swift in Sources */,
+				413C32D18DBF5049FC8CC71D /* DesktopView.swift in Sources */,
+				814C3122B3E50DB9C3F3E79D /* FlappyBirdGameView.swift in Sources */,
+				11FCCA65FD72BBCB06822AB1 /* GameCatalog.swift in Sources */,
+				34FE6B7E67792AC113F456CF /* MegaGamesCollection.swift in Sources */,
+				31FA1929AE7BE65E310275D8 /* PaywallModal.swift in Sources */,
+				34ACCEC085CF2DCD5C7F047A /* PlaceholderGameView.swift in Sources */,
+				5D97AE4944F4DEB60475AABE /* PongGameView.swift in Sources */,
+				65E378756AB83E15C69062E0 /* RemainingGames.swift in Sources */,
+				21C0D137B7311DFEBAD2713C /* RewardedAdManager.swift in Sources */,
+				C69685152505992A8FC0005A /* SettingsView.swift in Sources */,
+				F05F260EC8B147285629628A /* SimpleGames.swift in Sources */,
+				D331D86542F23BCB14E1BFA8 /* SnakeGameView.swift in Sources */,
+				E31443E554B5F4477162AEC5 /* StoreKitManager.swift in Sources */,
+				618052702C98F622C952EE86 /* TetrisGameView.swift in Sources */,
+				79F784BD0259B2D7A40BAE35 /* Theme.swift in Sources */,
+				691D53A6F240CF32DE828C71 /* WindowManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5B1C89FB4BD922DF80FA1A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7F6FFDF75A39E4BE8C96E965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZT56M637KS;
+				INFO_PLIST_FILE = ArcadeOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.unleeshed.ArcadeOS;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D119E8D284857DDBD97E37CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FAD878DF40E2761603A43E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZT56M637KS;
+				INFO_PLIST_FILE = ArcadeOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.unleeshed.ArcadeOS;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B8D7284FD0A7D4DE0655593 /* Build configuration list for PBXProject "ArcadeOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1C89FB4BD922DF80FA1A0D /* Debug */,
+				D119E8D284857DDBD97E37CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0EA5D0C9223CD0A23843843F /* Build configuration list for PBXNativeTarget "ArcadeOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6FFDF75A39E4BE8C96E965 /* Debug */,
+				FAD878DF40E2761603A43E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C235368E8B75D5D07FE9006F /* Project object */;
+}
