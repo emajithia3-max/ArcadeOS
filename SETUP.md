@@ -4,6 +4,38 @@ Complete setup instructions for building and running **ArcadeOS – Retro Arcade
 
 ---
 
+## Quick Start - Code Signing Setup
+
+Before building, you must configure code signing in Xcode:
+
+### 1. Open the Project
+1. Open `ArcadeOS.xcodeproj` in Xcode
+2. Select the **ArcadeOS** target in the project navigator
+
+### 2. Configure Signing & Capabilities
+1. Go to **Signing & Capabilities** tab
+2. Check **Automatically manage signing**
+3. Select your **Team** from the dropdown (requires Apple Developer account)
+4. The bundle identifier is already set to `com.unleeshed.ArcadeOS`
+   - You can change this to your own bundle identifier if desired
+
+### 3. Common Code Signing Errors & Solutions
+
+**"No Account for Team" Error:**
+- Go to Xcode → Settings → Accounts
+- Click **+** to add your Apple ID
+- Sign in with your Apple Developer account
+
+**"No provisioning profiles" Error:**
+- Ensure you've selected a valid Team in Signing & Capabilities
+- Xcode will automatically create provisioning profiles when you select a team
+
+**"Info.plist not found" Error:**
+- The Info.plist is located at `ArcadeOS/Info.plist`
+- Verify the **INFOPLIST_FILE** build setting points to `ArcadeOS/Info.plist`
+
+---
+
 ## 1. Prerequisites
 
 - **Xcode 15.0+** (for iOS 16+ support)

@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001000000000000000001 /* ArcadeOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000001 /* ArcadeOSApp.swift */; };
+		A10001000000000000000002 /* BootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000002 /* BootView.swift */; };
+		A10001000000000000000003 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000003 /* AudioManager.swift */; };
+		A10001000000000000000004 /* DesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000004 /* DesktopView.swift */; };
+		A10001000000000000000005 /* GameCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000005 /* GameCatalog.swift */; };
+		A10001000000000000000006 /* WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000006 /* WindowManager.swift */; };
+		A10001000000000000000007 /* MegaGamesCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000007 /* MegaGamesCollection.swift */; };
+		A10001000000000000000008 /* RemainingGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000008 /* RemainingGames.swift */; };
+		A10001000000000000000009 /* FlappyBirdGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000009 /* FlappyBirdGameView.swift */; };
+		A10001000000000000000010 /* BreakoutGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000010 /* BreakoutGameView.swift */; };
+		A10001000000000000000011 /* CasualGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000011 /* CasualGames.swift */; };
+		A10001000000000000000012 /* PongGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000012 /* PongGameView.swift */; };
+		A10001000000000000000013 /* SimpleGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000013 /* SimpleGames.swift */; };
+		A10001000000000000000014 /* SnakeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000014 /* SnakeGameView.swift */; };
+		A10001000000000000000015 /* PlaceholderGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000015 /* PlaceholderGameView.swift */; };
+		A10001000000000000000016 /* TetrisGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000016 /* TetrisGameView.swift */; };
+		A10001000000000000000017 /* AccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000017 /* AccessManager.swift */; };
+		A10001000000000000000018 /* PaywallModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000018 /* PaywallModal.swift */; };
+		A10001000000000000000019 /* RewardedAdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000019 /* RewardedAdManager.swift */; };
+		A10001000000000000000020 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000020 /* StoreKitManager.swift */; };
+		A10001000000000000000021 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000021 /* Theme.swift */; };
+		A10001000000000000000022 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000022 /* SettingsView.swift */; };
+		A10001000000000000000023 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = A20001000000000000000023 /* Products.storekit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00001000000000000000001 /* ArcadeOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcadeOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20001000000000000000001 /* ArcadeOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeOSApp.swift; sourceTree = "<group>"; };
+		A20001000000000000000002 /* BootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootView.swift; sourceTree = "<group>"; };
+		A20001000000000000000003 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		A20001000000000000000004 /* DesktopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopView.swift; sourceTree = "<group>"; };
+		A20001000000000000000005 /* GameCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalog.swift; sourceTree = "<group>"; };
+		A20001000000000000000006 /* WindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowManager.swift; sourceTree = "<group>"; };
+		A20001000000000000000007 /* MegaGamesCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaGamesCollection.swift; sourceTree = "<group>"; };
+		A20001000000000000000008 /* RemainingGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainingGames.swift; sourceTree = "<group>"; };
+		A20001000000000000000009 /* FlappyBirdGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBirdGameView.swift; sourceTree = "<group>"; };
+		A20001000000000000000010 /* BreakoutGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakoutGameView.swift; sourceTree = "<group>"; };
+		A20001000000000000000011 /* CasualGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasualGames.swift; sourceTree = "<group>"; };
+		A20001000000000000000012 /* PongGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongGameView.swift; sourceTree = "<group>"; };
+		A20001000000000000000013 /* SimpleGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGames.swift; sourceTree = "<group>"; };
+		A20001000000000000000014 /* SnakeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeGameView.swift; sourceTree = "<group>"; };
+		A20001000000000000000015 /* PlaceholderGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderGameView.swift; sourceTree = "<group>"; };
+		A20001000000000000000016 /* TetrisGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisGameView.swift; sourceTree = "<group>"; };
+		A20001000000000000000017 /* AccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessManager.swift; sourceTree = "<group>"; };
+		A20001000000000000000018 /* PaywallModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallModal.swift; sourceTree = "<group>"; };
+		A20001000000000000000019 /* RewardedAdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedAdManager.swift; sourceTree = "<group>"; };
+		A20001000000000000000020 /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		A20001000000000000000021 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A20001000000000000000022 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20001000000000000000023 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
+		A20001000000000000000024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30001000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40001000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40001000000000000000002 /* ArcadeOS */,
+				A40001000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40001000000000000000002 /* ArcadeOS */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000024 /* Info.plist */,
+				A40001000000000000000004 /* App */,
+				A40001000000000000000005 /* Audio */,
+				A40001000000000000000006 /* Desktop */,
+				A40001000000000000000007 /* Games */,
+				A40001000000000000000008 /* Monetization */,
+				A40001000000000000000009 /* RetroUI */,
+				A40001000000000000000010 /* Settings */,
+				A40001000000000000000011 /* Resources */,
+			);
+			path = ArcadeOS;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00001000000000000000001 /* ArcadeOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000001 /* ArcadeOSApp.swift */,
+				A20001000000000000000002 /* BootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000005 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000003 /* AudioManager.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000006 /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000004 /* DesktopView.swift */,
+				A20001000000000000000005 /* GameCatalog.swift */,
+				A20001000000000000000006 /* WindowManager.swift */,
+			);
+			path = Desktop;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000007 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				A40001000000000000000012 /* AllGames */,
+				A40001000000000000000013 /* Arcade */,
+				A40001000000000000000014 /* Breakout */,
+				A40001000000000000000015 /* CasualGames */,
+				A40001000000000000000016 /* Pong */,
+				A40001000000000000000017 /* SimpleGames */,
+				A40001000000000000000018 /* Snake */,
+				A40001000000000000000019 /* Templates */,
+				A40001000000000000000020 /* Tetris */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000008 /* Monetization */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000017 /* AccessManager.swift */,
+				A20001000000000000000018 /* PaywallModal.swift */,
+				A20001000000000000000019 /* RewardedAdManager.swift */,
+				A20001000000000000000020 /* StoreKitManager.swift */,
+			);
+			path = Monetization;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000009 /* RetroUI */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000021 /* Theme.swift */,
+			);
+			path = RetroUI;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000010 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000022 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000011 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A40001000000000000000021 /* StoreKit */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000012 /* AllGames */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000007 /* MegaGamesCollection.swift */,
+				A20001000000000000000008 /* RemainingGames.swift */,
+			);
+			path = AllGames;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000013 /* Arcade */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000009 /* FlappyBirdGameView.swift */,
+			);
+			path = Arcade;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000014 /* Breakout */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000010 /* BreakoutGameView.swift */,
+			);
+			path = Breakout;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000015 /* CasualGames */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000011 /* CasualGames.swift */,
+			);
+			path = CasualGames;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000016 /* Pong */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000012 /* PongGameView.swift */,
+			);
+			path = Pong;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000017 /* SimpleGames */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000013 /* SimpleGames.swift */,
+			);
+			path = SimpleGames;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000018 /* Snake */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000014 /* SnakeGameView.swift */,
+			);
+			path = Snake;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000019 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000015 /* PlaceholderGameView.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000020 /* Tetris */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000016 /* TetrisGameView.swift */,
+			);
+			path = Tetris;
+			sourceTree = "<group>";
+		};
+		A40001000000000000000021 /* StoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				A20001000000000000000023 /* Products.storekit */,
+			);
+			path = StoreKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50001000000000000000001 /* ArcadeOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70001000000000000000001 /* Build configuration list for PBXNativeTarget "ArcadeOS" */;
+			buildPhases = (
+				A60001000000000000000001 /* Sources */,
+				A30001000000000000000001 /* Frameworks */,
+				A60001000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcadeOS;
+			productName = ArcadeOS;
+			productReference = A00001000000000000000001 /* ArcadeOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80001000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A50001000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A70001000000000000000002 /* Build configuration list for PBXProject "ArcadeOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40001000000000000000001;
+			productRefGroup = A40001000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50001000000000000000001 /* ArcadeOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60001000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001000000000000000023 /* Products.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60001000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001000000000000000001 /* ArcadeOSApp.swift in Sources */,
+				A10001000000000000000002 /* BootView.swift in Sources */,
+				A10001000000000000000003 /* AudioManager.swift in Sources */,
+				A10001000000000000000004 /* DesktopView.swift in Sources */,
+				A10001000000000000000005 /* GameCatalog.swift in Sources */,
+				A10001000000000000000006 /* WindowManager.swift in Sources */,
+				A10001000000000000000007 /* MegaGamesCollection.swift in Sources */,
+				A10001000000000000000008 /* RemainingGames.swift in Sources */,
+				A10001000000000000000009 /* FlappyBirdGameView.swift in Sources */,
+				A10001000000000000000010 /* BreakoutGameView.swift in Sources */,
+				A10001000000000000000011 /* CasualGames.swift in Sources */,
+				A10001000000000000000012 /* PongGameView.swift in Sources */,
+				A10001000000000000000013 /* SimpleGames.swift in Sources */,
+				A10001000000000000000014 /* SnakeGameView.swift in Sources */,
+				A10001000000000000000015 /* PlaceholderGameView.swift in Sources */,
+				A10001000000000000000016 /* TetrisGameView.swift in Sources */,
+				A10001000000000000000017 /* AccessManager.swift in Sources */,
+				A10001000000000000000018 /* PaywallModal.swift in Sources */,
+				A10001000000000000000019 /* RewardedAdManager.swift in Sources */,
+				A10001000000000000000020 /* StoreKitManager.swift in Sources */,
+				A10001000000000000000021 /* Theme.swift in Sources */,
+				A10001000000000000000022 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A90001000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A90001000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A90001000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ArcadeOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ArcadeOS";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unleeshed.ArcadeOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A90001000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ArcadeOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ArcadeOS";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unleeshed.ArcadeOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70001000000000000000001 /* Build configuration list for PBXNativeTarget "ArcadeOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90001000000000000000003 /* Debug */,
+				A90001000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70001000000000000000002 /* Build configuration list for PBXProject "ArcadeOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90001000000000000000001 /* Debug */,
+				A90001000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80001000000000000000001 /* Project object */;
+}
